@@ -2,6 +2,8 @@
 
 This is a simple Contacts Management App built with React that demonstrates fetching data from an API and performing CRUD (Create, Read, Update, Delete) operations on contacts. The app interacts with the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) to simulate backend interactions for contacts.
 
+## Hosted Link (https://mellifluous-mooncake-0a3e9c.netlify.app/)
+
 ## Features
 
 - View the list of contacts fetched from the JSONPlaceholder API.
