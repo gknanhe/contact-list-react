@@ -1,0 +1,126 @@
+::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.addContact {
+  margin: 10px;
+}
+
+.addContact input {
+  padding: 12px;
+  border: 1px solid #405cf5;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+  color: rgb(92, 95, 112);
+  background-color: transparent;
+  outline: none;
+}
+
+.addContact button {
+  margin-left: 5px;
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  /* margin: 12px 0 0; */
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* width: 100%; */
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.addContact button:hover {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+.mainContainer {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.usersListContainer {
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  background-color: #f7f6fb;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 15px;
+  /* overflow-y: scroll;
+  height: 100vh; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.userContainer {
+  height: auto;
+  background-color: white;
+  width: 300px;
+  border-radius: 9px;
+  margin: 15px;
+  padding: 20px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.userContainer img {
+  width: 45px;
+  margin-right: 15px;
+}
+
+.userName {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.name {
+  color: #423741;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.email {
+  font-size: 0.9rem;
+  color: #bbb9c5;
+}
